@@ -1,7 +1,7 @@
 import { spawn, type ChildProcess } from 'node:child_process'
 
 const children: ChildProcess[] = []
-
+ 
 function run(args: string[]) {
   const child = spawn('npx', args, { stdio: 'inherit', shell: true })
   children.push(child)

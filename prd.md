@@ -2,7 +2,7 @@
 
 A local web app on a Node API. People sign in, buy Telnyx numbers, and place calls against a balance an admin approves. Baileys links one WhatsApp account for the admin.
 
-## Product
+## Product 
 
 - **Accounts.** People sign up and sign in. The first account is the admin. Later accounts are users.
 - **Numbers.** A signed-in user can search Telnyx's available-number inventory and buy a number onto their account. The charge comes out of their balance.
